@@ -70,6 +70,10 @@ ul.menu a {
     display: block;
 }
 
+ul.menu li {
+    line-height: 2.1875rem;
+}
+
 
 section {
     padding: 3.125rem 0;
