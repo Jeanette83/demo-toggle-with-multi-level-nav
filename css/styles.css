@@ -54,6 +54,11 @@ header {
     padding: 1rem 0;
 }
 
+.toggle-nav {
+    background-color: var(--navy);
+    border: none;
+}
+
 .toggle-nav svg {
     width: 2.1875rem;
 }
