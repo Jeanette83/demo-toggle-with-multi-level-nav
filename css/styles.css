@@ -61,6 +61,7 @@ header {
 
 .toggle-nav svg {
     width: 2.1875rem;
+    fill: var(--off-white)
 }
 
 section {
