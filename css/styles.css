@@ -1,1 +1,22 @@
 /* dev styles here */
+
+/* variables go here. Note they take the form: --variable: value; */
+:root {
+    --navy: #0c263e;
+    --dk-navy: #071629;
+    --orange: #e75a2f;
+    --off-white: #f5f5f5;
+
+}
+
+
+/* We'll grab 2 fonts, one for the body, one for the headings. */
+body {
+    color: var(--dk-navy);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Pacifico', cursive;
+}
