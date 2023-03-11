@@ -70,6 +70,15 @@ ul.menu a {
     display: block;
 }
 
+
+ul.menu a:hover,
+ul.menu a:active {
+    color: var(--orange);
+    text-decoration: underline;
+
+}
+
+
 a.main-menu-link {
     font-size: 1.3rem;
 }
