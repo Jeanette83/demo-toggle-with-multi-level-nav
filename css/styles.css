@@ -23,6 +23,8 @@ body {
     padding: 0 1rem;
 }
 
+
+/****************** Typography **************************/
 h1,
 h2 {
     font-family: 'Pacifico', cursive;
@@ -33,7 +35,7 @@ h1 {
 }
 
 h1 a {
-    color: var(--dk-navy);
+    color: var(--off-white);
     text-decoration: none;
 }
 
@@ -44,5 +46,11 @@ h2 {
 
 p {
     margin-bottom: 1.5rem;
+}
+
+/****************  header ******************************************/
+header {
+    background-color: var(--navy);
+    padding: 1rem 0;
 }
 
