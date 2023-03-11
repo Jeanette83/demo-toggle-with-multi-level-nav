@@ -64,6 +64,13 @@ header {
     fill: var(--off-white)
 }
 
+ul.menu a {
+    color: var(--off-white);
+    text-decoration: none;
+    display: block;
+}
+
+
 section {
     padding: 3.125rem 0;
 }
