@@ -54,8 +54,9 @@ header {
     padding: 1rem 0;
 }
 
-
-
+.toggle-nav svg {
+    width: 2.1875rem;
+}
 
 section {
     padding: 3.125rem 0;
