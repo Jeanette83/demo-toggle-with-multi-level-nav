@@ -79,6 +79,10 @@ ul.menu li {
     margin: 0.5rem 0;
 }
 
+ul.submenu {
+    padding-left: 1.875rem;
+}
+
 
 section {
     padding: 3.125rem 0;
