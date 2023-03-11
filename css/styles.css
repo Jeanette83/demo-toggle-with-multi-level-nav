@@ -95,6 +95,8 @@ ul.submenu {
 ul.utility-nav a {
     background-color: var(--orange);
     color: var(--off-white);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
 
 }
 
