@@ -16,7 +16,15 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.inner-container {
+    max-width: 1400px;
+    margin: 0 auto; /* center your stuff */
+    /* padding: top bottom; */
+    padding: 0 1rem;
+}
+
 h1,
 h2 {
     font-family: 'Pacifico', cursive;
 }
+
