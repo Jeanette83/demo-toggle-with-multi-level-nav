@@ -92,6 +92,11 @@ ul.submenu {
     padding-left: 1.875rem;
 }
 
+ul.utility-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
 ul.utility-nav a {
     background-color: var(--orange);
     color: var(--off-white);
