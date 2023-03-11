@@ -64,6 +64,10 @@ header {
     fill: var(--off-white)
 }
 
+ul.menu {
+    border-bottom: solid 1px var(--off-white);
+}
+
 ul.menu a {
     color: var(--off-white);
     text-decoration: none;
