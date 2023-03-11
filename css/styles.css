@@ -70,8 +70,13 @@ ul.menu a {
     display: block;
 }
 
+a.main-menu-link {
+    font-size: 1.3rem;
+}
+
 ul.menu li {
     line-height: 2.1875rem;
+    margin: 0.5rem 0;
 }
 
 
