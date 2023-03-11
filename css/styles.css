@@ -92,6 +92,11 @@ ul.submenu {
     padding-left: 1.875rem;
 }
 
+ul.utility-nav a {
+    background-color: var(--orange);
+    color: var(--off-white);
+
+}
 
 section {
     padding: 3.125rem 0;
