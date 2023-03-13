@@ -59,6 +59,8 @@ header {
     background-color: var(--navy);
     border: none;
     color: var(--off-white);
+    font-size: 0.8rem;
+    text-transform: lowercase;
 }
 
 .toggle-nav svg {
