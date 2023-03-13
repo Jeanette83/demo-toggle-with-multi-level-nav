@@ -58,6 +58,7 @@ header {
 .toggle-nav {
     background-color: var(--navy);
     border: none;
+    color: var(--off-white);
 }
 
 .toggle-nav svg {
