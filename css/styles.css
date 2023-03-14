@@ -187,6 +187,8 @@ section {
 
     ul.submenu {
         position: absolute;
+        top: 45px;
+        left: 0;
         background-color: var(--navy);
     }
 }
