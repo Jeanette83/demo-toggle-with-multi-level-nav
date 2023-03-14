@@ -38,7 +38,7 @@ width (done in the header nav selector)****/
 purposes I'm putting it with the stuff straight above it. It shows how the nav
 element now will take up 100% of it's width of the flex container*/
 header nav {
-    flex:1 0 100%;
+   
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.8s ease-in-out;
@@ -46,15 +46,15 @@ header nav {
     background-color: var(--navy);
     left: 0;
     top: 88px; /* This is the height of the header*/
-     
+    padding: 0 1rem;
     /* now to make it the whole width of the header (with some padding)*/
     width: 100vw;
-    padding: 0 1 rem;
+   
     
 }
 
 .show-nav {
-    max-height: 27rem;
+    max-height: 28rem;
 }
 
 /****************** Typography **************************/
