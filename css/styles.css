@@ -180,4 +180,9 @@ section {
         display: flex;
         border: none;
     }
+
+    ul.submenu {
+        position: absolute;
+        background-color: var(--navy);
+    }
 }
