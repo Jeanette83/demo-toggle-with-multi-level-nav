@@ -195,8 +195,15 @@ section {
         white-space: nowrap;     /* This makes it so that two-word list items don't each have their own line*/
         text-align: right;
         padding: 0 0.5rem;
-        /* now hide it!*/
+        /* now, after all that styleing, hide it!*/
         visibility: hidden;
         opacity: 0;
+    }
+
+    /* now, unhide it, using the parent element, and applying the changes to the element we are 
+    playing peekaboo with*/
+    ul.menu li:hover ul.submenu {
+        visibility: hidden;
+        opacity: 1;
     }
 }
