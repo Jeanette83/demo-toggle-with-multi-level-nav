@@ -168,5 +168,12 @@ section {
     header nav {
         max-height: 100vh;
         position: static;
+        /* We want the content BESIDE the h1. Keep in mind it is still in the flex container*/
+        width: fit-content;
+        display: flex;
     }
+
+    /* Now we have a buncha stuff to put side by side within the nav menu. Take this slowly and 
+    figure out which elements need to go where! We start by flexing the nav elemnt 
+    (see above)*/
 }
