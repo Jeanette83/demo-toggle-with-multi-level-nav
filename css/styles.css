@@ -40,6 +40,7 @@ element now will take up 100% of it's width of the flex container*/
 header nav {
     flex:1 0 100%;
     max-height: 0;
+    overflow: hidden;
 }
 
 /****************** Typography **************************/
