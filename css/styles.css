@@ -39,9 +39,14 @@ purposes I'm putting it with the stuff straight above it. It shows how the nav
 element now will take up 100% of it's width of the flex container*/
 header nav {
     flex:1 0 100%;
-    max-height: 0;
-    overflow: hidden;
+    /*max-height: 0;
+    overflow: hidden;*/
     transition: max-height 0.8s ease-in-out;
+    position: absolute;
+    background-color: var(--navy);
+    left: 0;
+    top: 88px; /* This is the height of the header*/
+    
 }
 
 .show-nav {
