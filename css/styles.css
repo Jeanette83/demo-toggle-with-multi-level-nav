@@ -211,4 +211,8 @@ section {
         visibility: visible;
         opacity: 1;
     }
+
+    ul.utility-nav {
+        margin-bottom: 0;
+    }
 }
