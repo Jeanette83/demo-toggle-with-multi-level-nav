@@ -46,6 +46,10 @@ header nav {
     background-color: var(--navy);
     left: 0;
     top: 88px; /* This is the height of the header*/
+     
+    /* now to make it the whole width of the header (with some padding)*/
+    width: 100vw;
+    padding: 0 1 rem;
     
 }
 
