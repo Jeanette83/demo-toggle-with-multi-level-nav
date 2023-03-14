@@ -43,6 +43,10 @@ header nav {
     overflow: hidden;
 }
 
+.show-nav {
+    max-height: 100vh;
+}
+
 /****************** Typography **************************/
 h1,
 h2 {
@@ -143,6 +147,4 @@ section {
     padding: 3.125rem 0;
 }
 
-img {
-    margin-bottom: 16px;
-}
+
