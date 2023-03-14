@@ -203,7 +203,7 @@ section {
     /* now, unhide it, using the parent element, and applying the changes to the element we are 
     playing peekaboo with*/
     ul.menu li:hover ul.submenu {
-        visibility: hidden;
+        visibility: visible;
         opacity: 1;
     }
 }
