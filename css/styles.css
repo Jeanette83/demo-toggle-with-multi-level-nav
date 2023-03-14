@@ -195,12 +195,12 @@ section {
     }
 
     ul.menu svg {
-        display: block;
+        display: inline;
         fill: var(--off-white);
         width: 1.25rem;
     }
 
-    .main-menu link {
+    a.main-menu link {
         display: flex;
     }
 
