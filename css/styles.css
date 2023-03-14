@@ -157,4 +157,9 @@ section {
     padding: 3.125rem 0;
 }
 
-
+@media screen and (min-width:700px) {
+    /*we don't need to HIDE the nav menu any mores:*/
+    .toggle-nav {
+        display: none;
+    }
+}
