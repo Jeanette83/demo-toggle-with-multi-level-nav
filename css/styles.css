@@ -158,8 +158,13 @@ section {
 }
 
 @media screen and (min-width:700px) {
-    /*we don't need to HIDE the nav menu any mores:*/
+    /*we don't need that button any mores:*/
     .toggle-nav {
         display: none;
+    }
+
+    /* and we wanna see our nav menu, so give it some height*/
+    header nav {
+        max-height: 100vh;
     }
 }
