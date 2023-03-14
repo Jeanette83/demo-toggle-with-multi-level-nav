@@ -198,6 +198,7 @@ section {
         /* now, after all that styleing, hide it!*/
         visibility: hidden;
         opacity: 0;
+        transition: all 0.5s ease;
     }
 
     /* now, unhide it, using the parent element, and applying the changes to the element we are 
