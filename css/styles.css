@@ -31,6 +31,7 @@ width (done in the header nav selector)****/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Normally this would go below with the other header stuff, but for educational
