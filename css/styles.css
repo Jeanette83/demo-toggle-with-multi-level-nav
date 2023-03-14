@@ -190,6 +190,7 @@ section {
         position: absolute;
         top: 45px;
         left: 0;
+        width: 100%;
         background-color: var(--navy);
         white-space: nowrap;     /* This makes it so that two-word list items don't each have their own line*/
     }
