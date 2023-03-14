@@ -176,4 +176,7 @@ section {
     /* Now we have a buncha stuff to put side by side within the nav menu. Take this slowly and 
     figure out which elements need to go where! We start by flexing the nav elemnt 
     (see above)*/
+    ul.menu {
+        display: flex;
+    }
 }
