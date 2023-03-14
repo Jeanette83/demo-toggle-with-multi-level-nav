@@ -183,6 +183,7 @@ section {
         display: flex;
         gap: 1.5rem;
         border: none;
+        margin-bottom: 0;
     }
 
     ul.menu li {
