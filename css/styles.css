@@ -178,5 +178,6 @@ section {
     (see above)*/
     ul.menu {
         display: flex;
+        border: none;
     }
 }
