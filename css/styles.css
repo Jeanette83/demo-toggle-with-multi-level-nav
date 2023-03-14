@@ -172,6 +172,7 @@ section {
         width: fit-content;
         display: flex;
         gap: 3.125rem;
+        align-items: center;
         overflow: visible;
     }
 
