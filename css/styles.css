@@ -194,10 +194,14 @@ section {
         position: relative;
     }
 
-    ul menu svg {
+    ul.menu svg {
         display: block;
         fill: var(--off-white);
         width: 1.25rem;
+    }
+
+    .main-menu link {
+        display: flex;
     }
 
     ul.submenu {
