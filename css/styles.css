@@ -41,6 +41,7 @@ header nav {
     flex:1 0 100%;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.8s ease-in-out;
 }
 
 .show-nav {
