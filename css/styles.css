@@ -181,6 +181,10 @@ section {
         border: none;
     }
 
+    ul.menu li {
+        position: relative;
+    }
+
     ul.submenu {
         position: absolute;
         background-color: var(--navy);
