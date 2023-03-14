@@ -181,7 +181,7 @@ section {
     (see above)*/
     ul.menu {
         display: flex;
-        gap: 1rem;
+        gap: 1.5rem;
         border: none;
     }
 
