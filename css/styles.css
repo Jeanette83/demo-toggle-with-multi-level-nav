@@ -163,8 +163,10 @@ section {
         display: none;
     }
 
-    /* and we wanna see our nav menu, so give it some height*/
+    /* and we wanna see our nav menu, so give it some height. But it is still positioned
+    absolute, so it sticks to the left side. */
     header nav {
         max-height: 100vh;
+        position: static;
     }
 }
