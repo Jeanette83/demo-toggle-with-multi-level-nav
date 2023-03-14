@@ -194,6 +194,12 @@ section {
         position: relative;
     }
 
+    ul menu svg {
+        display: block;
+        fill: var(--off-white);
+        width: 1.25rem;
+    }
+
     ul.submenu {
         position: absolute;
         top: 45px;
