@@ -61,6 +61,8 @@ header {
     color: var(--off-white);
     font-size: 0.8rem;
     text-transform: lowercase;
+    display: flex;
+    flex-direction: column;
 }
 
 .toggle-nav svg {
