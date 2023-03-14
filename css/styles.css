@@ -35,7 +35,9 @@ width (done in the header nav selector)****/
 /* Normally this would go below with the other header stuff, but for educational
 purposes I'm putting it with the stuff straight above it. It shows how the nav
 element now will take up 100% of it's width of the flex container*/
-
+header nav {
+    flex-basis: 100%;
+}
 
 /****************** Typography **************************/
 h1,
