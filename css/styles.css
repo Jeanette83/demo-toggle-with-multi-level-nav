@@ -171,6 +171,7 @@ section {
         /* We want the content BESIDE the h1. Keep in mind it is still in the flex container*/
         width: fit-content;
         display: flex;
+        gap: 3.125rem;
         overflow: visible;
     }
 
