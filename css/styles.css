@@ -171,6 +171,7 @@ section {
         /* We want the content BESIDE the h1. Keep in mind it is still in the flex container*/
         width: fit-content;
         display: flex;
+        overflow: visible;
     }
 
     /* Now we have a buncha stuff to put side by side within the nav menu. Take this slowly and 
